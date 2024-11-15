@@ -1,1 +1,604 @@
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+.navcontainer{
+  background-color: #272f2e;
+  margin-top: 20px;
+  display: flex;
+ align-items: center;
+ width: 100%;
+ 
+
+
+}
+.img{
+  padding: 20px;
+}
+li{
+  
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  display: inline-block;
+  height: 46px;
+  padding-top: 5px;
+  line-height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-shadow: rgb(0, 0, 0) 0px 1px 1px;
+  text-transform: uppercase;
+  background-color: rgb(49, 48, 48);
+ 
+
+}
+li a{
+  text-decoration: none;
+  color: white
+}
+ li:hover{
+  background-color: red;
+ }
+ 
+ .Seach{
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  margin-left: 100px;
+ }
+ 
+ .search-input{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(49, 48, 48);
+  text-align: center;
+  font-size: 15px;
+  border-radius: 2px;
+  
+ }
+ .searchcontainer{
+  margin-top: 20px;
+ 
+
+ }
+
+ .telegram{
+  display:flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .box1{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color: #009de1;
+  border-radius: 5px;
+  align-content: center;
+  margin: 7px;
+ }
+
+ .box2{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color:#dfa917;
+  border-radius: 5px;
+  align-content: center;
+ }
+.box1 a{
+  color: white;
+  text-decoration: none;  
+}
+
+.box2 a{
+  color: white;
+  text-decoration: none;
+}
+
+.linkcontainer{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.linkcontainer li{
+ background-color: rgb(210, 23, 23);
+ border-radius: 5px;
+ margin-bottom: 5px;
+justify-content: space-evenly;
+ 
+}
+
+.poster1 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+
+.post{
+  display: block;
+}
+.postercontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.poster1 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+.poster2 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster2 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.poster3 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin: 15px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster3 h3 {
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.poster4 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster4 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+.poster5 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster5 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+.poster6 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster6 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+.poster7 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+}
+.poster7 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+.poster8 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+  
+}
+.poster8 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+.poster9 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+  
+}
+.poster9 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
+.poster10 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+  
+}
+.poster10 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+
+.poster11 img{
+  height: 219px;
+  width: 146px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 15px;
+  border: 2px solid rgb(248, 189, 78);
+  
+  
+}
+.poster11 h3{
+  height: 149px;
+  width: 122px;
+  margin: 15px;
+  color: white;
+  padding: 10px;
+}
+
+
+.page{
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.page span{
+  padding: 10px 15px;
+  min-width: 30px;
+  min-height: 30px;
+  display: inline-block;
+  border: 1px solid white;
+  margin: 3px;
+  vertical-align: top;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+  
+}
+
+.page a{
+  padding: 10px 15px;
+  min-width: 30px;
+  min-height: 30px;
+  display: inline-block;
+  border: 1px solid white;
+  margin: 3px;
+  vertical-align: top;
+  text-align: center;
+  color: white;
+}
+
+.page a:hover{
+  border-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    background-color: #CC0000;
+    background: linear-gradient(to left bottom, #CC0000 50%, #b80000 50%);
+}
+
+.para{
+  margin-top: 200px;
+  color: wheat;
+  text-align: center;
+  font-size: 16px;
+}
+
+.para2{
+  
+  color: wheat;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer p{
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.footerdiv{
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.footerdiv a{
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+
+
+}
+
+/*page 2 tyle/*/
+
+.title{
+  margin-top: 40px;
+  width: 100%;
+  color: white;
+}
+.title a{
+  color: white;
+  text-decoration: none;
+}
+
+#brother{
+  color: white;
+  margin-top: 10px
+}
+
+.brolink a{
+  margin-top: 5px;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+.brolink span{
+  color: white;
+  margin: 5px;
+}
+.bropara{
+  margin-top: 24px;
+}
+.bropara p{
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.movieinfo{
+  width: 100%;
+  background-color: #313030;
+  color: white;
+  margin-top: 20px;
+}
+.movieinfo p{
+  color: yellow;
+  text-align: center;
+}
+ 
+.mviinfo2{
+
+  color: white;
+  text-align: center;
+
+}
+
+.mviinfo2 p{
+  color: white;
+  margin: 10px
+}
+
+.watchonline{
+  width: 100%;
+  background-color: #313030;
+  color: yellow;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.divpic{
+  text-align: center;
+}
+
+.Downloadlink{
+  width: 100%;
+  background-color: #313030;
+  color: yellow;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+#bro2024{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+p{
+  text-align: center;
+  margin: 15px;
+}
+
+p a{
+  
+  color: #fff !important;
+  background: linear-gradient(135deg, #67df03b8, #1356d5b8);
+  padding: 6px 15px;
+  display: inline-block;
+  margin: 4px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+#winding{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(149, 89, 159);
+}
+
+#visiting{
+  color: white;
+}
+
+.tag-item{
+  text-align: center;
+  color: #1F1F1F;
+  margin: 5px;
+  text-decoration: none;
+  padding: 4px 15px;
+  text-transform: capitalize;
+  color: #C4C4C4;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.tag-item a{
+
+  display: inline-block;
+  color:white;
+  background-color: transparent;
+  margin: 5px;
+  text-decoration: none;
+  padding: 4px 15px;
+  text-transform: capitalize;
+  text-align: center;
+  transition: .5s;
+
+}
+
+.tag1:hover{
+  background-color: #C4C4C4;
+  color: black;
+}
+
+
+.tag2:hover{
+  background-color: #C4C4C4;
+  color: black;
+}
+
+.tag3:hover{
+  background-color: #C4C4C4;
+  color: black;
+}
+
+.burger{
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+
+}
+.line{
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 5px;
+}
+
+@media screen and (max-width:840px) {
+  .burger{
+    display: block;
+  }
+
+  .NavBar{
+    display: none;
+    transition: 0.7s;
+  }
+
+  .navcontainer{
+   display: block;
+
+   
+  }
+ 
+  
+}
+
+@media screen and (max-width:415px){
+  .logo{
+    width: 200px;
+  }
+ 
+}
+
