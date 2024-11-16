@@ -1,2 +1,2 @@
 # vegasmovies-website-clone
-using HTMl CSS JAVASCRIPT
+Using HTMl CSS JAVASCRIPT
